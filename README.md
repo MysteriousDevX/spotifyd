@@ -41,12 +41,12 @@ You can also compile `Spotifyd` yourself, allowing you to make use of feature fl
 
 `Spotifyd` might require additional libraries during build and runtime, depending on your platform and the way to compile it (static or dynamic). The following table shows the libraries needed for each OS respectively.
 
-| Target Platform | Libraries                                            |
-|-----------------|------------------------------------------------------|
-| Fedora          | alsa-lib-devel, make, gcc                            |
-| openSUSE        | alsa-devel, make, gcc                                |
-| Debian          | libasound2-dev libssl-dev libpulse-dev libdbus-1-dev |
-| macOS           | dbus, pkg-config, portaudio                          |
+| Target Platform | Libraries                                                             |
+|-----------------|-----------------------------------------------------------------------|
+| Fedora          | alsa-lib-devel, make, gcc                                             |
+| openSUSE        | alsa-devel, make, gcc                                                 |
+| Debian          | libasound2-dev libssl-dev libpulse-dev libdbus-1-dev protobuf-compiler|
+| macOS           | dbus, pkg-config, portaudio                                           |
 
 > __Note:__ The package names for Linux are the ones used on Debian based distributions (like Ubuntu). You will need to adapt the packages for your distribution respectively.
 
